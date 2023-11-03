@@ -127,7 +127,6 @@ URI     : https://colorlib.com
           </div>
           <div class="col-lg-6">
             <div class="social-icons">
-              <a href="#"><span class="ti-facebook"></span></a>
               <a href="#"><span class="ti-twitter-alt"></span></a>
               <a href="#"><span class="ti-instagram"></span></a>
             </div>
@@ -158,6 +157,7 @@ URI     : https://colorlib.com
     <script src="js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+    <script src="js/policy.js"></script>
 
     <script>
       const id = document.getElementById("policy");
@@ -169,7 +169,7 @@ URI     : https://colorlib.com
         policies += "<div class='col-md-12'>";
         policies += `<h4 class='mb-3'>${policy.title}</h4>`;
         policy.description.map((des) => {
-          policies += `<li class='mb-5'> ${des} </li>`;
+          policies += `<li class='mb-5 zone-list'> ${des} </li>`;
         });
 
         policies += "</div>";

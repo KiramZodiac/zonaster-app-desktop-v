@@ -663,3 +663,11 @@ header {
 .logo {
   width: 150px;
 }
+/* Additional styles*/
+
+.zone-list {
+  list-style: none;
+  font-size: 0.9rem;
+  margin-left: 0.4rem;
+  margin-bottom: 1.5rem !important;
+}

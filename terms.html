@@ -75,15 +75,6 @@ URI     : https://colorlib.com
                       >HOME <span class="sr-only">(current)</span></a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#features">FEATURES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#gallery">GALLERY</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">CONTACT</a>
-                  </li>
                 </ul>
               </div>
             </nav>
@@ -100,7 +91,7 @@ URI     : https://colorlib.com
       </div>
     </header>
 
-    <div id="policy"></div>
+    <p id="terms"></p>
 
     <div class="light-bg py-5" id="contact">
       <div class="container">
@@ -127,7 +118,6 @@ URI     : https://colorlib.com
           </div>
           <div class="col-lg-6">
             <div class="social-icons">
-              <a href="#"><span class="ti-facebook"></span></a>
               <a href="#"><span class="ti-twitter-alt"></span></a>
               <a href="#"><span class="ti-instagram"></span></a>
             </div>
@@ -135,13 +125,11 @@ URI     : https://colorlib.com
         </div>
       </div>
     </div>
-
-    <p id="policy"></p>
     <!-- // end .section -->
     <footer class="my-5 text-center">
       <small>
         <a href="terms.html" class="m-2">TERMS OF USE</a>
-        <a href="privacy2.html" class="m-2">PRIVACY POLICY</a>
+        <a href="privacy.html" class="m-2">PRIVACY POLICY</a>
       </small>
       <br />
 
@@ -160,8 +148,10 @@ URI     : https://colorlib.com
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 
+    <script src="js/terms.js"></script>
+
     <script>
-      const id = document.getElementById("Terms");
+      const id = document.getElementById("terms");
 
       let policies = "<div class='row pt-4'>";
 
@@ -169,11 +159,11 @@ URI     : https://colorlib.com
 
       policies += "<div class='container-fluid'>";
 
-      Terms.map((policy) => {
+      Terms.map((term) => {
         policies += "<div class='col-md-12'>";
-        policies += `<h4 class='mb-3'>${policy.title}</h4>`;
-        policy.description.map((des) => {
-          policies += `<li class='mb-5'> ${des} </li>`;
+        policies += `<h4 class='mb-3'>${term.title}</h4>`;
+        term.description.map((des) => {
+          policies += `<li class='mb-5 zone-list'> ${des} </li>`;
         });
 
         policies += "</div>";
