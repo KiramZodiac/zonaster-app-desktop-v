@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--
+
+Page    : index / MobApp
+Version : 1.0
+Author  : Kiram Zodiac
+URI     : https://colorlib.com
+
+ -->
+
+  <head>
+    <title>ZonasterEvents.com</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Mobland - Mobile App Landing Page Template"
+    />
+    <meta
+      name="keywords"
+      content="HTML5, bootstrap, mobile, app, landing, ios, android, responsive"
+    />
+
+    <!-- Font -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:300,400,500"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="30">
+    <!-- Nav Menu -->
+
+    <div class="nav-menu fixed-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+              <a class="navbar-brand" href="index.html"
+                ><img
+                  src="screenshots/Zonaster-06.png"
+                  class="img-fluid logo"
+                  alt="logo"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbar"
+                aria-controls="navbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html"
+                      >HOME <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#features">FEATURES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">GALLERY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="bg-gradient" id="home">
+      <div class="container mt-5">
+        <h3>Privacy Policy</h3>
+        <br />
+        <br />
+      </div>
+    </header>
+
+    <div id="policy"></div>
+
+    <div class="light-bg py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center text-lg-left">
+            <p class="mb-2">
+              <span class="ti-location-pin mr-2"></span>Ambassador House plot
+              56/60 Kampala Road-Uganda
+            </p>
+            <div class="d-block d-sm-inline-block">
+              <p class="mb-2">
+                <span class="ti-email mr-2"></span>
+                <a class="mr-4" href="mailto:admin@zonaster.com"
+                  >admin@zonaster.com</a
+                >
+              </p>
+            </div>
+            <div class="d-block d-sm-inline-block">
+              <p class="mb-0">
+                <span class="ti-headphone-alt mr-2"></span>
+                <a href="tel:+56 787111 511">+ 256 78 111 511</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="social-icons">
+              <a href="#"><span class="ti-twitter-alt"></span></a>
+              <a href="#"><span class="ti-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p id="policy"></p>
+    <!-- // end .section -->
+    <footer class="my-5 text-center">
+      <small>
+        <a href="terms.html" class="m-2">TERMS OF USE</a>
+        <a href="privacy.html" class="m-2">PRIVACY POLICY</a>
+      </small>
+      <br />
+
+      <!-- Copyright removal is not prohibited! -->
+      <p class="mb-2">
+        COPYRIGHT © 2023. ALL RIGHTS RESERVED.
+        <strong>ZONASTER TECHNOLOGIES CO. LTD</strong>
+      </p>
+    </footer>
+
+    <!-- jQuery and Bootstrap -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <script src="js/policy.js"></script>
+
+    <script>
+      const id = document.getElementById("policy");
+
+      let policies = "<div class='row pt-4'>";
+      policies += "<div class='section pt-0'>";
+      policies += "<div class='container-fluid'>";
+      Policy.map((policy) => {
+        policies += "<div class='col-md-12'>";
+        policies += `<h4 class='mb-3'>${policy.title}</h4>`;
+        policy.description.map((des) => {
+          policies += `<li class='mb-5 zone-list'> ${des} </li>`;
+        });
+
+        policies += "</div>";
+      });
+
+      policies += "</div></div></div>";
+      id.innerHTML = policies;
+    </script>
+  </body>
+</html>
