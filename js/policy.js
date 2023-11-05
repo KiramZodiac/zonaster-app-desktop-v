@@ -78,12 +78,11 @@ const Policy = [
   {
     title: "Information We Collect",
     description: [
-      "a. User Account Information: When you register and use Zonaster, we collect personal information such as your name, email address, and profile picture.",
-      "b. Event Information: Zonaster may collect data related to the events you create, attend, or express interest in. This includes event details, location, date, time, and associated content.",
-      "c. Device Information: We may collect device-specific information, including your device type, operating system, and unique identifiers.",
-      "d. Location Information: If you enable location services, we may collect your precise location data to provide event recommendations and location-based features.",
-      "e. Log Data: We automatically collect information related to your use of the application, such as IP addresses, browser type, pages viewed, and interactions within the app.",
-      "f. Cookies and Analytics: We use cookies and similar tracking technologies to enhance user experience and gather analytics on app usage."
+      "a. Event Information: Zonaster may collect data related to the events you create, attend, or express interest in. This includes event details, location, date, time, and associated content.",
+      "b. Device Information: We may collect device-specific information, including your device type, operating system, and unique identifiers.",
+      "c. Location Information: If you enable location services, we may collect your precise location data to provide event recommendations and location-based features.",
+      "d. Log Data: We automatically collect information related to your use of the application, such as IP addresses, browser type, pages viewed, and interactions within the app.",
+      "e. Cookies and Analytics: We use cookies and similar tracking technologies to enhance user experience and gather analytics on app usage."
     ]
   },
   {
@@ -108,8 +107,7 @@ const Policy = [
     title: "Your Privacy Choices",
     description: [
       "a. Account Settings: You can review and update your account information and preferences within the app.",
-      "b. Location Services: You can control your location settings on your device and within the app.",
-      "c. Cookies: You can manage cookie preferences within your browser settings."
+      "b. Location Services: You can control your location settings on your device and within the app."
     ]
   },
   {
