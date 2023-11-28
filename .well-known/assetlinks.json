@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.zonaster.zone",
+      "sha256_cert_fingerprints": [
+        "31:6C:FD:3A:A4:39:2C:F5:EB:3E:5C:A7:56:C5:B5:70:CA:59:9C:0A:54:7E:FE:DE:02:02:2A:95:45:9B:43:D5",
+        "9D:61:F1:4A:3B:6C:43:D9:71:D0:D2:12:E6:51:5A:3F:83:D8:7B:46:3B:23:E5:51:88:17:9B:D9:28:D8:64:7E"
+      ]
+    }
+  }
+]
