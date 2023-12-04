@@ -671,3 +671,10 @@ header {
   margin-left: 0.4rem;
   margin-bottom: 1.5rem !important;
 }
+.contact {
+  padding-bottom: 10px;
+}
+.linka {
+  color: #959094;
+  font-size: medium;
+}
