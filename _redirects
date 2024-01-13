@@ -1,2 +1,2 @@
-# Redirects from what the browser requests to what we serve
-/events/*                /events
+# Redirect with a 302
+/events/*    /events    302
